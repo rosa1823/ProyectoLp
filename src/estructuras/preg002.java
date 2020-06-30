@@ -5,13 +5,15 @@
  */
 package estructuras;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Rosa Ayala
  */
 public class preg002 {
     public static void main(String[] args){
-            Scanner teclado = new Scanner(System.in);
+        try (Scanner teclado = new Scanner(System.in)) {
             double importe;
             System.out.print("importe: ");
             importe = Double.valueOf(teclado.nextLine());
@@ -27,8 +29,7 @@ public class preg002 {
             } else {
                 System.out.println("Fuera de rango");
             }
-                
-           teclado.close();
+        }
     }
 }
            
