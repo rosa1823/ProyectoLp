@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Rosa Ayala
+ * @authora Rosa Ayala
  */
 public class Preg001 {
     public static void main (String[] args){
